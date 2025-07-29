@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("https://i.imgur.com/Lpjeb84.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 1rem;
+}
+
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom: 1px solid white;
+}
+
+a:active {
+  color: gray;
+  border-bottom: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 70%;
+  position: fixed;
+  top: 0;
+  padding: 2rem 0 0 0;
+}
+
+#titleHeader {
+  font-family: "Tinos", serif;
+  font-weight: 200;
+  color: white;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.linksHeader {
+  display: flex;
+  gap: 1rem;
+  font-size: 12pt;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.history {
+  width: 70%;
+  position: fixed;
+  bottom: 0;
+  padding: 0 0 3rem 0;
+}
+
+#myPhoto {
+  clip-path: circle();
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 9rem;
+}
+
+.history>p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12pt;
+  width: 28rem;
+}
