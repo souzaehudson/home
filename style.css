@@ -80,7 +80,7 @@ main {
 
 #myPhoto {
   clip-path: circle();
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   width: 9rem;
 }
@@ -117,8 +117,15 @@ main {
   #menu {
     display: flex;
   }
+  
+  .history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .history > p {
+    text-align: center;
     width: 100%;
   }
 
