@@ -126,7 +126,7 @@ main {
 
   .history > p {
     text-align: center;
-    width: 100%;
+    width: 90%;
   }
 
   #myPhoto {
@@ -165,3 +165,4 @@ main {
   width: 20%;
   z-index: 1;
 }
+
