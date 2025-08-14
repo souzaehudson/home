@@ -8,6 +8,7 @@ body {
   background-attachment: fixed;
   height: 100vh;
   padding: 1rem;
+  margin: 0 4rem;
 }
 
 h2 {
@@ -34,11 +35,9 @@ a:active {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
-  position: fixed;
-  top: 0;
   padding: 2rem 0 0 0;
   width: 100%;
 }
@@ -68,14 +67,19 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
 }
 
 .history {
-  width: 70%;
-  position: fixed;
-  bottom: 0;
-  padding: 0 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+}
+
+.history > p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13pt;
+  width: 75%;
 }
 
 #myPhoto {
@@ -83,12 +87,6 @@ main {
   border: 2px solid white;
   border-radius: 50%;
   width: 9rem;
-}
-
-.history > p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 13pt;
-  width: 28rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -102,10 +100,6 @@ main {
 }
 
 @media screen and (max-width: 800px) {
-  header {
-    width: 90%;
-  }
-
   #titleHeader {
     width: 13rem;
   }
@@ -125,7 +119,7 @@ main {
   }
 
   .history > p {
-    text-align: center;
+    text-align: justify;
     width: 90%;
   }
 
