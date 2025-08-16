@@ -124,7 +124,7 @@ main {
   }
 
   .history > p {
-    text-align: justify;
+    text-align: center;
     width: 90%;
   }
 
@@ -164,5 +164,6 @@ main {
   width: 20%;
   z-index: 1;
 }
+
 
 
